@@ -127,6 +127,19 @@ text-align: left;
 
 .dropdown:hover .button-content {background-color:grey}
 
+.navbar3 {
+    background-color:gray;
+    border: solid 1.2px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    border-color:#04AA6D;
+}
 
+.table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
 
