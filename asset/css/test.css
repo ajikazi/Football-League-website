@@ -9,13 +9,13 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px; /*<!--adding basic functions to the nav bar like font,padding,text-align, color etc -->*/
+  font-size: 17px; /*<!-- properties of nav bar that are not dropdown-->*/
 } 
 
 .dropdown {
 float:left;
 overflow:hidden;
-}
+} /* properties of dropdown on nav bar*/
 
 .dropdown .dropbtn {
 font-size: 14px;
@@ -26,7 +26,7 @@ padding: 14px 16px;
 background-color: inherit;
 font-family: inherit;
 margin: 0;
-}
+} /* properties of dropdown button on nav bar*/
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #ddd;
@@ -39,7 +39,7 @@ margin: 0;
   background-color:white;
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+} /* design of the dropdown layout*/
 
 .dropdown-content a {
 float: none;
@@ -48,11 +48,11 @@ padding: 12px 16px;
 text-decoration: none;
 display: block;
 text-align: left;
-}
+}  /* design of the dropdown layout*/
 
 .dropdown-content a:hover {
   background-color: #AFE1AF;
-}
+}  /* design of the background layout of button after dropdown*/
 
 .dropdown:hover .dropdown-content{
   display:block;
@@ -62,11 +62,71 @@ text-align: left;
     float: right;
 }
 
-.h2{
+.first-h{
+    margin: auto;
+    width: 97%;
+    border-radius: 10px;
     background-color:grey;
-    background-size: 210x;
     color: white;
-    font-size:160%;
+    font-size:140%;
     text-align: center;
-    margin: 20;
 }
+
+.container-image{
+    margin: auto;
+    width: 95%;
+    background-color:white;
+    height:40px;
+}
+
+.columnimg {
+    float: left;
+}
+
+.navbar2{
+    margin: 30px;
+    color: transparent;
+    border: solid 1.2px;
+    border-bottom-color:#04AA6D;
+    height: 54px;
+}
+
+.button-content {
+    color:black;
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0px;
+    cursor: pointer;
+    border: solid 1.2px;
+    border-color:#04AA6D;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color:#f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {background-color:inherit;}
+
+.dropdown:hover .dropdown-content2 {display:block;}
+
+.dropdown:hover .button-content {background-color:grey}
+
+
+
+
