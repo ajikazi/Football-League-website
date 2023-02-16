@@ -1,3 +1,10 @@
+.bigone {
+  background-color: white;
+  width: 90%;
+  height: 70%;
+  margin: auto;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #04AA6D; /*<!--this adds a color to the bg of the nav bar-->*/
