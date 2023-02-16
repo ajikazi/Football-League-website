@@ -128,12 +128,12 @@ text-align: left;
 .dropdown:hover .button-content {background-color:grey}
 
 .second-h {
-    background-color:azure;
+    background-color:rgb(237, 240, 245);
     border: solid 1.2px;
     border-radius: 5px;
     width: 70%;
     height: 45px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     margin: 30px;
     border-color:#04AA6D;
@@ -141,5 +141,12 @@ text-align: left;
 
 .table {
     width: 80%;
-    border: 1.5px solid green;
+    border: 2px solid green;
+    margin: 30px;
+    color: #000;
+}
+
+view-btn {
+    color: white;
+    background-color:rgb(170, 171, 172);
 }
