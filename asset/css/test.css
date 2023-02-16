@@ -139,14 +139,33 @@ text-align: left;
     border-color:#04AA6D;
 }
 
-.table {
-    width: 80%;
-    border: 2px solid green;
-    margin: 30px;
-    color: #000;
-}
-
 view-btn {
     color: white;
     background-color:rgb(170, 171, 172);
 }
+
+.table {
+    width: 80%;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+.table td, .table th {
+    border: 1.5px solid #04AA6D;
+    padding:8px;
+  }
+  
+  .table tr {
+    background-color: white;
+    }
+    
+   .table tr:hover {
+     background-color: #ddd;
+   } 
+   
+   table th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: center;
+     color: #04AA6D;
+   }
