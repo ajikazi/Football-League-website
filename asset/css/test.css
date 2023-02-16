@@ -127,15 +127,19 @@ text-align: left;
 
 .dropdown:hover .button-content {background-color:grey}
 
-.navbar3 {
-    background-color:gray;
+.second-h {
+    background-color:azure;
     border: solid 1.2px;
     border-radius: 5px;
     width: 70%;
-    margin: auto;
+    height: 45px;
+    font-size: 12px;
+    text-align: center;
+    margin: 30px;
     border-color:#04AA6D;
 }
 
-
-
-
+.table {
+    width: 80%;
+    border: 1.5px solid green;
+}
